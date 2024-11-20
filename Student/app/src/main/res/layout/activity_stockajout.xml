@@ -1,0 +1,82 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="16dp"
+            tools:context=".stockajout">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@android:color/holo_blue_light"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Liste des etudiants"
+        android:layout_marginTop="10sp"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_blue_light"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+                    android:id="@+id/textViewNom"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Nom : "
+                    android:textSize="20sp"/>
+
+                <TextView
+                    android:id="@+id/textViewPrenom"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/textViewNom"
+                    android:text="Prénom : "
+                    android:textSize="20sp"/>
+
+                <TextView
+                    android:id="@+id/textViewFiliere"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/textViewPrenom"
+                    android:text="Filière : "
+                    android:textSize="20sp"/>
+
+                <TextView
+                    android:id="@+id/textViewNomParent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/textViewFiliere"
+                    android:text="Nom du parent : "
+                    android:textSize="20sp"/>
+
+                <TextView
+                    android:id="@+id/textViewNumParent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/textViewNomParent"
+                    android:text="Numéro du parent : "
+                    android:textSize="20sp"/>
+
+                <TextView
+                    android:id="@+id/textViewNote"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/textViewNumParent"
+                    android:text="Note : "
+                    android:textSize="20sp"/>
+
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/bibi"
+    android:layout_marginTop="40dp"
+    android:text="retourner"/>
+
+</LinearLayout>
+
+

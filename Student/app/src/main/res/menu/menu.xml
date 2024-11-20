@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/acc"
+        android:title="Acceuil"
+        />
+    <item android:id="@+id/nou"
+        android:title="Créer un compte"
+        />
+    <item android:id="@+id/conn"
+        android:title="Gérer étudiant"
+        />
+    <item android:id="@+id/app"
+        android:title="À propos"
+        />
+    <item android:id="@+id/reg"
+        android:title="Réglementation"
+        />
+
+</menu>
